@@ -5,7 +5,6 @@ FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Step 3: Install dependencies for Tesseract and Python
-# Step 3: Install dependencies for Tesseract and Python
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
